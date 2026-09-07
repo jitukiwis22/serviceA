@@ -1,0 +1,10 @@
+name: Service A build and docker image
+
+on:
+  push:
+    branches:
+      - master
+
+env:
+  IMAGE_NAME: serviceA
+
