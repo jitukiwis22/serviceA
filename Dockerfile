@@ -1,7 +1,7 @@
 FROM eclipse-temurin:17-jre
 
 WORKDIR /app
-EXPOSE 8081
+EXPOSE 9091
 
 COPY target/*.jar app.jar
 
